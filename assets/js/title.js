@@ -1,10 +1,10 @@
 var rev = "fwd";
 function titlebar(val){
-    var msg  = "GooseCorp";
+    var msg  = "charge";
     var res = " ";
     var speed = 250;
     var pos = val;
-    msg = "   🍇"+msg+"💜";
+    msg = "🍇"+msg+"💜";
     var le = msg.length;
     if(rev == "fwd"){
         if(pos < le){
