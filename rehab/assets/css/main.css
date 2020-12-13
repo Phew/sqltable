@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #333;
+    color: white;
+    font-size: 1.3vw;
+    text-shadow: 0px 0px 3px black;
+    background: url("../img/unknown.png") center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+  position: fixed;
+  color: #fff;
+}
+
+
+a {
+	text-decoration: none;
+	transition: 0.6s;
+	color: #fff;
+}
+
+a:hover {
+	color: #e44c65;
+}
+
+#audio, body {  
+	background-color: black;
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#welcome {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	font-size: 20px;
+	transition: 0.6s;
+}
+
+#hidden {
+	transition: 0.6s;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -3;
+  }
+  
+  #pattern {
+    background: transparent url('/assets/dot.png') repeat 0 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 1;
+  }
+  
+  #pattern,
+  #background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #background {
+    z-index: -2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 135%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    overflow: hidden;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  
+
+.clock {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+.content {
+	font-size: 17px;
+	position: fixed;
+	color: #f1f1f1;
+	opacity: 0.7;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+	section.special, article.special {
+		text-align: center;
+	}
+
+	header p {
+		color: #ffffff;
+		position: relative;
+		margin: 0 0 1.5em 0;
+	}
+
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.75em;
+	}
+
+	header h3 + p {
+		font-size: 1.1em;
+		margin-top: -0.8em;
+		line-height: 1.75em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+		line-height: 1.5em;
+	}
+
+	header.major {
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.major:after {
+			background: #e44c65;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
