@@ -3,6 +3,7 @@
 body {
 	font-family: "Manrope", sans-serif;
 	background-color:#000;
+	background: url("../img/bg.gif") center fixed;
   position: fixed;
   color: #ffcccb;
 }
