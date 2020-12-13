@@ -31,7 +31,8 @@ a:hover {
 	color: #fff;
 }
 
-#myVideo, body {  
+#audio, body {  
+	background-color: black;
 	object-fit: cover;
 	width: 100vw;
 	height: 100vh;
