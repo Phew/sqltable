@@ -24,7 +24,7 @@
   color: black;
 }
 a:hover{
-	color: gray;
+	color: #e44c65;
 	transition: 0.5s;
 }
 #raizo {
