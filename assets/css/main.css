@@ -2,7 +2,24 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  background-color: #212529;
+  background-color: #333;
+    color: white;
+    font-size: 1.3vw;
+    text-shadow: 0px 0px 3px black;
+    background: url("../img/unknown.pn") center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
   position: fixed;
   color: #ad6edd;
 }
