@@ -25,8 +25,13 @@
 
   <div id="hidden">
     <audio autoplay="" loop="" >
-      <source loop="" src="/assets/grape.mp3" type="mpeg/mp3">
-    </audio>
+                  <source src="/assets/grape.mp3">
+                                    <script>
+                                        var audio = document.currentScript.parentElement;
+                                        audio.volume = 0.4444;
+                                    </script>
+                                    </audio>
+
     <div class="content">
       <a href="https://steamcommunity.com/id/sqltable">steam</a> /
       <a href="https://www.youtube.com/c/chrge">youtube</a><br>
