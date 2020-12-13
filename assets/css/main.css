@@ -10,6 +10,7 @@ body {
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-opacity: 1;
     -webkit-user-select: none;
     /* Chrome all / Safari all */
     -moz-user-select: none;
