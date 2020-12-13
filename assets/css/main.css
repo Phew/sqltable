@@ -21,18 +21,18 @@ body {
     user-select: none;
     /* Likely future */
   position: fixed;
-  color: #ad6edd;
+  color: #fff;
 }
 
 
 a {
 	text-decoration: none;
 	transition: 0.6s;
-	color: #ad6edd;
+	color: #fff;
 }
 
 a:hover {
-	color: #fff;
+	color: #e44c65;
 }
 
 #audio, body {  
