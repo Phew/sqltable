@@ -16,11 +16,10 @@ body {
     /* Chrome all / Safari all */
     -moz-user-select: none;
     /* Firefox all */
-    -ms-user-select: none;
+   -ms-user-select: none;
     /* IE 10+ */
-    user-select: none;
+  user-select: none;
     /* Likely future */
-  position: fixed;
   color: #fff;
 }
 
